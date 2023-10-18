@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Virtual Haven</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+  />
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h1 {
+      -webkit-text-stroke-width: 3px;
+      -webkit-text-stroke-color: black;
+      text-decoration: underline;
+      text-decoration-color: rgba(2, 57, 73, 0.5);
+      color: white;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 70px;
+      margin-top: 20px;
+    }
+    header {
+      padding-top: 20px;
+      text-align: center;
+      background: url("./background.jpg");
+      object-fit: cover;
+      display: block;
+    }
+    img {
+      text-align: center;
+    }
+    li {
+      font-size: 20px;
+      color: white;
+      display: inline;
+      padding: 0 50px 0 50px;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      background: rgba(4, 89, 116, 0.5);
+    }
+    .dog {
+      border-radius: 20px;
+    }
+    section {
+      background-color: #a6b8cc;
+      height: 600px;
+    }
+    @media (max-width: 768px) {
+      header {
+        background: none;
+        background-color: #a6b8cc;
+      }
+      h1 {
+        font-size: 40px;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+      }
+      li {
+        font-size: 15px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="./loogo.jpg" width="200" class="dog" />
+    <h1>Virtual Haven</h1>
+    <ul>
+      <li>Why VA</li>
+      <li>Courses</li>
+      <li>About Me</li>
+    </ul>
+  </header>
+  <section></section>
+</body>
